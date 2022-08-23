@@ -36,7 +36,7 @@ span {
     color: white;
     background-image: linear-gradient(pink, crimson);
     font-weight: 300;
-    padding: 5px 10px;
+    padding: 10px 10px;
     border-radius: 3px;
 }
 
@@ -69,8 +69,9 @@ span {
 #donate-button {
     text-decoration: none;
     border: none;
-    padding: 1% 2%;
+    padding: 10px 10px;
     color: white;
+    
 }
 
 .plan-alignment {
@@ -82,6 +83,10 @@ span {
     border-radius: 5px;
     margin-left: 13px;
 }
+.food-family img {
+    margin-right: 100%;
+    margin-top: 10%;
+}
 
 .shelter-family {
     background-color: rgba(255, 89, 89, 0.1);
@@ -89,12 +94,19 @@ span {
     border-radius: 5px;
     margin-left: 13px;
 }
-
+.shelter-family img{
+    margin-right: 100%;
+    margin-top: 10%;
+}
 .education-family {
     background-color: #FFF4D6;
     padding: 2%;
     border-radius: 5px;
     margin-left: 13px;
+}
+.education-family img{
+    margin-right: 100%;
+    margin-top: 10%;
 }
 .flexible-container-para{
     text-align: justify;
@@ -137,4 +149,11 @@ footer h2 {
 footer h6 {
     color: white;
     font-size: 11px;
+}
+#donation-photo {
+    width: 26em;
+    border-radius: 5px;
+}
+.donation-description{
+    padding: 60px;
 }
