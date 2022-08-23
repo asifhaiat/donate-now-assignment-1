@@ -123,3 +123,18 @@ span {
     border-bottom-right-radius: 4px;
     position: absolute;
 }
+footer {
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+footer h2 {
+    color: saddlebrown;
+    font-style: italic;
+}
+
+footer h6 {
+    color: white;
+    font-size: 11px;
+}
